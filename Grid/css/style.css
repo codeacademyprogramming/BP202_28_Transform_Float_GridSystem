@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.bg-dark{
+    background-color: rgba(82, 76, 76, 0.32);
+}
+
+
+.box{
+    width: 100%;
+    border: 1px solid;
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-olive{
+    background-color: olive;
+}

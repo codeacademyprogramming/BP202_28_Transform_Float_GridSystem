@@ -1,0 +1,23 @@
+.boxes{
+}
+
+body{
+    margin: 0;
+}
+.boxes .box{
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: yellowgreen;
+    border: 1px solid;
+}
+
+.clear{
+    clear: both;
+
+}
+.boxes::after{
+    content: "";
+    display: block;
+    clear: both;
+}
